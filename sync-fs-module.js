@@ -1,4 +1,5 @@
 // read and write files using fs module (built-in)
+// doesnt go line by line and block next command before completing previous
 const { readFileSync, writeFileSync, } = require("fs")
 
 // read content inside file

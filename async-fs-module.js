@@ -1,3 +1,5 @@
+// doesnt go line by line and block next command before completing previous
+
 const { readFile, writeFile } = require("fs")
 
 readFile(
@@ -27,7 +29,8 @@ readFile(
                             console.log(err)
                             return
                         }
-                        console.log(result)
+
+                        console.log(first, second)
                     }
                 )
 
