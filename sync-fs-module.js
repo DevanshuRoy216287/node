@@ -1,5 +1,5 @@
 // read and write files using fs module (built-in)
-const { readFileSync, writeFileSync, read } = require("fs")
+const { readFileSync, writeFileSync, } = require("fs")
 
 // read content inside file
 const first = readFileSync("./fodder/first.txt", "utf8")
