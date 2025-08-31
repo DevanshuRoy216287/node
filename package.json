@@ -1,0 +1,23 @@
+{
+  "name": "ok",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ok.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevanshuRoy216287/node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevanshuRoy216287/node/issues"
+  },
+  "homepage": "https://github.com/DevanshuRoy216287/node#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
