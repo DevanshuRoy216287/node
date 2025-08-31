@@ -4,7 +4,7 @@
   "description": "",
   "main": "ok.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start" : "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "homepage": "https://github.com/DevanshuRoy216287/node#readme",
   "dependencies": {
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
