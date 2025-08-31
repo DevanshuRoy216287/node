@@ -1,13 +1,7 @@
-// local variables
+// lodash => utility package
+const _ = require("lodash")
 
-const Devanshu = "Devanshu"
-const doc = "TheDoctor"
-const shak = "Shyamak"
+items = [1,[2,[3,[4]]]]
+newItems = _.flattenDeep(items) // makes it a flat array
 
-const sayHi = (name) => {
-    console.log("Hi", name)
-}
-
-sayHi(Devanshu)
-sayHi(doc)
-sayHi(shak)
+console.log(newItems)
