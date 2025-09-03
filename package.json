@@ -4,7 +4,7 @@
   "description": "",
   "main": "ok.js",
   "scripts": {
-    "start" : "nodemon app.js"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,13 @@
   },
   "homepage": "https://github.com/DevanshuRoy216287/node#readme",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "bcrypt": "^6.0.0",
+    "cookie": "^1.0.2",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.18.0",
+    "parser": "^0.1.4"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
